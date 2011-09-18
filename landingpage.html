@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<link rel=stylesheet href="reset.css" type="text/css" media=screen>
+	<link rel=stylesheet href="style.css" type="text/css" media=screen>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>  
+	<script type="text/javascript" src="js/cufon-yui.js"></script>  
+	<script type="text/javascript" src="js/Honey_Script_300-Honey_Script_600.font.js"></script> 
+	
+	<!-- put just before closing body tag: Cufon.replace('#header h1');  -->
+	
+		
+	<meta charset="utf-8">
+	<title>LocBox Landing Page</title>
+</head>
+<body>
+	<div class="noise" id="wrapper">
+		<div class="#" id="container">
+			<div id="offer-container">
+				<div id="offer-tag">
+					<p> A special offer from </p>
+					<h2> Loma Spa  </h2>
+					<div id="active-btn"> 
+						<span> Active </span>
+					</div>
+				</div>
+				<div id="offer-title">
+					<h2> $40 For Your Choice of Manicure and Pedicure </h2>
+				</div>
+				</div>
+				<div id="offer-img-container">
+					<div id="offer-img">
+						<img src="images/offer-img.jpg" width="500">
+					</div>
+					<div id="offer-img-banner">
+						<span class="percent"> 40% </span>
+					</div>
+				</div>
+				<div id="price-tag-container">
+					<div id="price-tag-wrapper">
+						<div id="price-tag">
+							<center>
+								<div id="dollar"> 
+									<p>$40</p> 
+									<span>(70 value) </span> 
+								</div>
+								
+								<div id="count-down"> 
+									<p>10 : 06 : 37 </p> 
+									<span>Time left to buy </span>
+								</div>
+								
+								<div id="seats-container"> 
+									<div id="seats">
+										<p>Only 7 Left </p> 
+										<span>out of </span> 
+										<p>35 total offers. </p> 
+									</div>
+								</div>
+								
+							</center>
+						</div>
+					</div>
+				</div>
+				<div id="form-container">
+					<div id="buy-form">
+						<h4> I want one! </h4>
+						<div id="form">
+							<form name="input" action="#" method="#">
+							<p> name </p> <input type="text" name="name" />
+							<p> email address </p><input type="text" name="email" />
+							<p> 	phone </p><input type="text" name="phone" />
+<!--						<input type="submit" name="submit-btn" value="buy now!" />-->
+							</form> 
+						</div>
+					</div>
+					
+					<div id="buy-btn-container">
+						<div class="btn">
+							<p><a href="#"> buy now! </a></p>
+						</div>
+					</div>
+					
+				</div>
+				<div id="social-container">
+					<div id="social">
+						<p> Share this deal with a friend! </p>
+						<a href="#"><img src="images/social/email.png"></a>
+						<a href="#"><img src="images/social/facebook.png"></a>
+						<a href="#"><img src="images/social/twitter.png"></a>
+					</div>
+				</div>
+				<div id="main-content-container">
+					<div id="main-content">
+						<h3> A special offer just for you… </h3>
+						<p> 
+							Vice cred elit trust fund, gentrify mustache brooklyn. Farm-to-table homo brooklyn, commodo portland aliqua consectetur craft beer gentrify seitan excepteur thundercats. 
+						</p>
+							<br />
+						<p>
+							Raw denim magna quis, master cleanse tofu organic keytar beard enim irony. VHS homo single-origin coffee, placeat hoodie stumptown odio tumblr shoreditch cliche aliqua gentrify cardigan. Etsy delectus locavore, banh mi pitchfork twee ethical quis +1 yr cillum terry richardson. Adipisicing homo do, sunt yr photo booth nulla portland delectus squid cardigan. Irure ethical aesthetic est, you probably haven't heard of them mixtape reprehenderit quis iphone american apparel twee.
+						</p>
+					</div>
+				</div>
+				<div id="fine-print-container">
+					<div id="fine-print">
+						<h3> The Fine Print </h3>
+						<ul>
+							<li> Must use by Oct 15, 2001</li>
+							<li> Limit one per person </li>
+							<li> 24 Hr Cancellation policy </li>
+						</ul>
+					</div>
+					<div id="details">
+						<h3> Our Hours </h3>
+						<ul>
+							<li> Mon-Fri 10am-5pm </li>
+							<li> Sat, Sun closed</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+<!-- Javascript that drives the form labels -->
+
+	<script type="text/javascript">
+	$(document).ready(function(){
+	  $("label").inFieldLabels();
+	});
+	</script>
+	
+	<script type="text/javascript">  
+		Cufon.replace('#offer-tag p, h3');
+	</script>
+</body>
+</html>
