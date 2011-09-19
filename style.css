@@ -14,8 +14,14 @@ h1, h2, h3, h4, div, p, a, ul, li {
 /*	background: black;*/
 }
 
+h1 {
+	font-size: 2em;
+	font-weight: bolder;
+	line-height: 60px;
+}
+
 h2 {
-	font-size: 1.6em;
+	font-size: 1.4em;
 	font-weight: bold;
 }
 
@@ -94,6 +100,7 @@ h4 {
 /*	background: red;*/
 	float: left;
 	margin: 0 auto;
+	padding: 0 0 0 15px;
 	
 }
 
@@ -131,7 +138,7 @@ h4 {
 	padding: 3px 0 0 10px;
 	line-height: 15px;
 	position: relative;
-	font-family: helvetica, arial, sans-serif;
+	font-family: helvetica, arial, sans-serifv;
 	font-size: .6em;
 	color: white;
 /*	clear: both;*/
@@ -145,11 +152,13 @@ h4 {
 #offer-title {
 /*	background: white;*/
 	line-height: 50px;
+	padding: 0 0 0 0px;
 	
 }
 
 #offer-img-container {
 	background: red;	
+	padding: 0 0 0 15px;
 }
 
 #offer-img {
@@ -167,9 +176,10 @@ h4 {
 /*	background: #777;*/
 	background: url(images/offer-img-banner.png);
 	position: absolute;
-	margin-top: 105px;
+	margin-top: 107px;
+	margin-left: -9px;
 /*	float: left;*/
-	box-shadow: inset 0px 1px 5px #666	
+/*	box-shadow: inset 0px 1px 5px #666	*/
 }
 
 .percent {
@@ -181,7 +191,7 @@ h4 {
 	font-size: 3em;
 	font-weight: bolder;
 	padding: 10px 0 0 0;
-	margin: 59px 0 0 54px;
+	margin: 35px 0 0 15px;
 	letter-spacing: -3px;
 	color: white;
 	text-shadow:inset 0px 1px 1px #292929;
@@ -192,7 +202,7 @@ h4 {
 }
 
 #price-tag-wrapper {
-	width: 190px;
+	width: 185px;
 	height: 400px;
 /*	background: blue;*/
 	background: url(images/tag.png) no-repeat 0 0;
@@ -250,14 +260,16 @@ h4 {
 /*	background: red;*/
 	font-size: 1.5em;
 	font-weight: bold;
-	color: #999;
+	color: #666;
 	text-shadow: 0px 1px 0px #111;
 }
 
 #count-down span {
 	font-weight: bold;
-	color: #777;
-	text-shadow: 0px 1px 0px #111;
+	font-size: 1.2em;
+	line-height: 20px;
+	color: #999;
+	text-shadow: 0px 2px 0px #111;
 }
 
 #seats-container {
@@ -277,8 +289,18 @@ h4 {
 	font-weight: bold;
 }
 
+
+/*************************************************************************
+**************************************************************************
+
+Form Styles 
+
+**************************************************************************
+*************************************************************************/
+
+
 #form-container {
-	width: 230px;
+	width: 220px;
 	height: 400px;
 	background: #555;
 	background: url(images/coupon.png) no-repeat;
@@ -288,7 +310,7 @@ h4 {
 
 #buy-form {
 	float: none;
-/*	margin: auto;*/
+	margin: auto;
 	padding: 0px 0px 0px -20px;
 /*	margin: 0px 0px 0px -20px;*/
 /*	top: 35%;*/
@@ -298,36 +320,105 @@ h4 {
 
 #buy-form h4 {
 /*	background: gray;*/
-	color: white;
-	width: 230px;
-	height: 100px;
-	padding: 50px 0 0 30px;
+	color: #b7ec58;
+	width: 200px;
+	height: 40px;
+	padding: 0px 0px 0px 0px;
+	margin: 50px 0 0 13px;
 	position: relative;
 	font-weight: bold;
 	font-size: 2em;
-	text-shadow: 0px 1px 1px #292929;
-}
+	text-shadow: 0px 2px 3px #292929;
+	background: #f4f4f4;
+	border-radius: 5px;
+/*	box-shadow: inset 0px 0px 9px #b1b1b1;*/
+	line-height: 40px;
+	text-indent: 14px;
+	}
+
+
+
+/******************************************************************
+********************************************************************
+
+OLD FORM
+
 
 #buy-form {
-/*	background: green;*/
+	background: green;
 	margin: auto;
 }
 
 #form {
-/*	background: #3366ff;*/
-	position:relative; 
-	padding: 10px 0 0 20px;
+	background: #3366ff;
+	position: relative; 
+	padding: 0px 0 0 20px;
 	margin: auto;
-/*	width: 100px;*/
+	width: 100px;
 }
 
 #form p {
 	position: absolute;
-	margin: auto;
+	margin: 0 auto;
 	padding: 5px 0 0 10px;
 	width: 100%;
 	font-size: .8em;
 }
+
+#name {
+	width: 100px;
+	height: 100px;
+	background: red;
+	margin: -500px 50px 0 0;
+}
+
+********************************************************************
+*******************************************************************/
+
+/*NEW FORM*/
+
+#myform {
+	width: 230px;
+	height: 100px;
+	padding: -50px 0 0 0;
+	margin: 30px 0 0 0;
+	position: relative;
+/*	background: red;*/
+}
+
+#myform p {
+	text-indent: -9999px;
+	padding:  ;
+	float: left;
+	position: relative;
+}
+
+input, textarea, select {
+  background-color : white;
+  color : #292929;
+} 
+
+input {
+  border : 1px solid #999;
+  padding : 5px;
+  font-size: 1em;
+  font-family: helvetica;
+  color: #666;
+} 
+
+.box { 
+	width: 180px; 
+	height: 15px; 
+	border-radius: 5px;
+	box-shadow:inset 0px 1px 1px #292929;
+	margin: 0 0 0 15px;
+}
+
+/*END NEW FORM*/
+
+
+
+
 
 #buy-btn-container {
 	width: 230px;
@@ -362,7 +453,7 @@ h4 {
 	background: red;
 	margin: 50px auto;
 	background: url(images/buy-btn-sprite.png) no-repeat 0 0;
-	width: 234px;
+	width: 216px;
 	height: 49px;
 	display: block;
 	text-indent: -9999px;
@@ -569,7 +660,7 @@ top:2px /* or more */
 	width: 1042px;
 	height: 590px;
 	background: url(images/envelope.png) no-repeat;
-	margin: -160px auto;
+	margin: -140px auto;
 	
 }
 
