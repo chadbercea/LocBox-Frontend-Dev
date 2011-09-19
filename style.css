@@ -3,7 +3,7 @@
 
 
 html {
-/*	background: #999;*/
+	background: #999;
 }
 
 h1, h2, h3, h4, div, p, a, ul, li {
@@ -32,16 +32,59 @@ h4 {
 
 #wrapper {
 	width: 100%;
-	height: 1200px;
-	background: #666;
-	padding-top: 25px;
+/*	height: 1268px;*/
+	background: #333;
+	padding-top: 55px;
 }
+
+#top-banner-container {
+	height: 40px;
+	background: #24b0d4;
+/*	background: red;*/
+	margin: -55px 0 0 0;
+	position: absolute;
+	width: 100%;
+	line-height: 40px;
+	box-shadow: 0px 1px 2px #393939;
+}
+
+#top-banner {
+/*	background: blue;*/
+	width: 960px;
+	margin: auto;
+/*	float: right;*/
+}
+
+#top-banner p a {
+/*	background: #333;*/
+	float: right;
+/*	padding-right: 80px;*/
+	color: white;
+	font-weight: bold;
+	font-size: .8em;
+	text-decoration: none;
+	text-shadow: 0px 1px 1px #555;
+	display: inline;
+}
+
+
+#top-banner a:hover {
+	color: #ffab00;
+}
+
+#top-banner a:active {
+	position: relative;
+	top: 1px /* or more */
+}
+
+
+
 
 #container {
 	width: 965px;
-	height: 100%;
+	height: 1100px;
 	background: white;
-	margin: 50px auto;
+	margin: 0 auto;
 	padding: 0 0 0 5px;
 	box-shadow: 0px 1px 5px #292929;
 }
@@ -151,8 +194,7 @@ h4 {
 #price-tag-wrapper {
 	width: 190px;
 	height: 400px;
-	background: blue;
-	
+/*	background: blue;*/
 	background: url(images/tag.png) no-repeat 0 0;
 	
 }
@@ -349,7 +391,7 @@ h4 {
 
 #social img:active {
 position:relative;
-top:1px /* or more */
+top:2px /* or more */
 } 
 
 #social p {
@@ -466,5 +508,102 @@ top:1px /* or more */
 	padding: 5px 0 0 0;
 	font-size: .8em;
 }
+
+/*#envelope-container {
+	float: left;
+	width: 1100px;
+	height: 200px;
+	background: red;
+	text-indent: -9999px;
+	background: url(images/envelope.png) no-repeat 0 0;
+	margin: 810px 0 0 -41px;
+	position: absolute;
+	
+}*/
+
+
+
+
+#envelope-container {
+	float: left;
+	width: 100%;
+	height: 90px;
+/*	background: #666;*/
+	margin: 0;
+	position: fixed;
+	bottom: 0;
+	text-indent: -9999px;
+	
+/*   position:fixed;*/
+/*   left:0px;*/
+/*   bottom:0px;*/
+/*   height:30px;*/
+/*   width: 960px;
+   background:red;
+   position: relative;*/
+}
+
+/* IE 6 
+* html #envelope-container {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}*/
+
+#page {
+/*	background: white;*/
+	width: 960px;
+	height: 50px;
+	margin: auto;
+}
+
+#envelope-container {
+	width: 100%;
+	height: 190px;
+/*	background: green;*/
+	margin: -250px 0 0 0;
+	
+	
+}
+
+#envelope {
+	width: 1042px;
+	height: 590px;
+	background: url(images/envelope.png) no-repeat;
+	margin: -160px auto;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
