@@ -117,8 +117,8 @@ h4 {
 }
 
 #offer-tag p {
-	font-size: 2em;
-	font-weight: bold;
+	font-size: 1.8em;
+	font-weight: normal;
 /*	color: purple;*/
 	width: 160px;
 	float: left;
