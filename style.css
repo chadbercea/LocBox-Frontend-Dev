@@ -45,7 +45,8 @@ h4 {
 
 #top-banner-container {
 	height: 40px;
-	background: #24b0d4;
+/*	background: #24b0d4;*/
+	background: #292929;
 /*	background: red;*/
 	margin: -55px 0 0 0;
 	position: absolute;
@@ -99,7 +100,7 @@ h4 {
 	width: 960px;
 /*	background: red;*/
 	float: left;
-	margin: 0 auto;
+	margin: 0	 auto;
 	padding: 0 0 0 15px;
 	
 }
@@ -247,11 +248,11 @@ h4 {
 }
 
 #count-down {
-	background: #333;
+/*	background: #333;*/
 	width: 170px;
 	height: 50px;
-	padding: 10px 5px 5px 5px;
-	box-shadow:inset 0px 1px 10px #000;
+	padding: 100px 5px 5px 5px;
+/*	box-shadow:inset 0px 1px 10px #000;*/
 	position: absolute;
 	margin: 0px 0px 0px 5px;
 }
@@ -261,33 +262,47 @@ h4 {
 	font-size: 1.5em;
 	font-weight: bold;
 	color: #666;
-	text-shadow: 0px 1px 0px #111;
+/*	text-shadow: 0px 1px 0px #111;*/
 }
 
 #count-down span {
 	font-weight: bold;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	line-height: 20px;
 	color: #999;
-	text-shadow: 0px 2px 0px #111;
+/*	text-shadow: 0px 2px 0px #111;*/
 }
 
 #seats-container {
-	margin-top: 75px;
+/*	margin-top: 0px;*/
 /*	background: red;*/
 }
 
-#seats {
+/*#seats {
 	color: #666;
 	padding-top: 15px;
+}*/
+
+#seats {
+	background: #444;
+	width: 170px;
+	height: 65px;
+	padding: 10px 5px 5px 5px;
+/*	box-shadow:inset 0px 1px 10px #000;*/
+	position: absolute;
+	margin: 0px 0px 0px 5px;
+	box-shadow:inset 0px 1px 10px #000;
+	
 }
 
 #seats p {
 /*	margin-top: 15px;*/
 /*	padding: 2px 0 5px 0;*/
+	color: #777;
 	line-height: 20px;
 	font-weight: bold;
 	font-size: 1.3em;
+	text-shadow: 0px 2px 3px #292929;
 }
 
 #seats span {
@@ -334,6 +349,7 @@ Form Styles
 #buy-form h4 {
 /*	background: gray;*/
 	color: #b7ec58;
+/*	color: white;*/
 	width: 200px;
 	height: 40px;
 	padding: 0px 0px 0px 0px;
@@ -341,8 +357,8 @@ Form Styles
 	position: relative;
 	font-weight: bold;
 	font-size: 2em;
-	text-shadow: 0px 2px 3px #292929;
-	background: #f4f4f4;
+	text-shadow: 0px 1px 1px #292929;
+/*	background: #f4f4f4;*/
 	border-radius: 5px;
 /*	box-shadow: inset 0px 0px 9px #b1b1b1;*/
 	line-height: 40px;
@@ -401,7 +417,7 @@ OLD FORM
 
 #myform p {
 	text-indent: -9999px;
-	padding:  ;
+/*	padding:  ;*/
 	float: left;
 	position: relative;
 }
@@ -416,7 +432,7 @@ input {
   padding : 5px;
   font-size: 1em;
   font-family: helvetica;
-  color: #666;
+  color: #999;
 } 
 
 .box { 
@@ -441,7 +457,7 @@ input {
 }
 
 .btn:active {
-	position: relative;
+	position: ab;
 	top: 2px /* or more */
 } 
 
@@ -462,22 +478,22 @@ input {
 	position: absolute;*/
 }
 
-.btn {
+div.btn {
 	background: red;
 	margin: 50px auto;
 	background: url(images/buy-btn-sprite.png) no-repeat 0 0;
-	width: 216px;
-	height: 49px;
+	width: 230px;
+	height: 62px;
 	display: block;
 	text-indent: -9999px;
 }
 
-.btn:hover {
-	background-position: 0 -49px;
+div.btn:hover {
+	background-position: 0 -62px;
 }
 
-.btn:active {
-	background-position: 0 -99px;
+div.btn:active {
+	background-position: 0 -124px;
 }
 
 #social-container {
@@ -613,6 +629,46 @@ top:2px /* or more */
 	font-size: .8em;
 }
 
+#our-location {
+	background: #fff;
+	border-radius: 5px;
+	margin: 15px;
+	padding: 15px;
+}
+
+#our-location h3 {
+	line-height: 35px;
+	box-shadow: 0px 1px 0px #fff;
+/*	border-style: solid;*/
+	border-bottom: 1px solid #666;
+	padding: 0 0 0 0;
+	margin: 0 0 10px 0;	
+	font-size: 1.5em;
+	font-weight: bold;
+	
+}
+
+#our-location p {
+	margin: -2px 0 0 0;
+	padding: 5px 0 0 0;
+	font-size: .8em;
+}
+
+#our-location a {
+	font-size: 1em;
+	color: #999;
+	text-decoration: none;
+}
+
+#our-location a:hover {
+	color: #666;
+	text-decoration: underline;
+}
+
+
+
+
+
 /*#envelope-container {
 	float: left;
 	width: 1100px;
@@ -647,11 +703,11 @@ top:2px /* or more */
    position: relative;*/
 }
 
-/* IE 6 
+ IE 6 
 * html #envelope-container {
    position:absolute;
    top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
-}*/
+}
 
 #page {
 /*	background: white;*/
@@ -673,7 +729,7 @@ top:2px /* or more */
 	width: 1042px;
 	height: 590px;
 	background: url(images/envelope.png) no-repeat;
-	margin: -140px auto;
+	margin: -130px auto;
 	
 }
 
