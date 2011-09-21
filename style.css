@@ -104,6 +104,7 @@ h4 {
 	margin: 0	 auto;
 	padding: 0 0 0 15px;
 	
+	
 }
 
 #offer-tag {
@@ -133,9 +134,9 @@ h4 {
 	color: #888;
 }
 
-#active-btn {
+/*#active-btn {
 	width: 40px;
-/*	height: 100%;*/
+/*	height: 100%;*!/
 	background: #21980b;
 	margin-top: 20px;
 	padding: 3px 0 0 10px;
@@ -144,10 +145,24 @@ h4 {
 	font-family: helvetica, arial, sans-serifv;
 	font-size: .6em;
 	color: white;
-/*	clear: both;*/
+/*	clear: both;*!/
 	float: left;
 	border-radius: 5px;
 	box-shadow: 0px 1px 0px #777;
+	
+}*/
+
+#active-btn {
+	text-indent: -9999px;
+	background: red;
+	height: 20px;
+	width: 50px;
+	float: left;
+/*	margin: 10px 0 0 ;*/
+	position: absolute;
+	top: 50%;
+	margin: -500px 0 0 280px;
+	background: url(images/active-sprite.png);
 	
 	
 }
