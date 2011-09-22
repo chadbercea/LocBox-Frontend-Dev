@@ -136,7 +136,7 @@ h4 {
 
 /*#active-btn {
 	width: 40px;
-/*	height: 100%;*!/
+/*	height: 100%;*/
 	background: #21980b;
 	margin-top: 20px;
 	padding: 3px 0 0 10px;
@@ -145,7 +145,7 @@ h4 {
 	font-family: helvetica, arial, sans-serifv;
 	font-size: .6em;
 	color: white;
-/*	clear: both;*!/
+/*	clear: both;*/
 	float: left;
 	border-radius: 5px;
 	box-shadow: 0px 1px 0px #777;
@@ -514,10 +514,10 @@ input.box {
 	margin: 50px auto;
 	font-weight: bold;
 	padding: 15px;
-/*	background: #24b0d4;*!/
-/*	color: white;*!/
-/*	font-size: 1.8em;*!/
-/*	display: inline;*!/
+/*	background: #24b0d4;*/
+/*	color: white;*/
+/*	font-size: 1.8em;*/
+/*	display: inline;*/
 	text-shadow: 0px 1px 1px #666;*/
 /*	background: url(images/buy-btn-sprite.png) no-repeat;
 	height: 50px;
@@ -783,7 +783,252 @@ top:2px /* or more */
 
 
 
+/*************************************************************************
+**************************************************************************
 
+Credit Card Styles 
+
+**************************************************************************
+*************************************************************************/
+
+#cc-wrapper {
+	padding: 10px;
+	margin: 50px;
+	background: black;
+	opacity: 75%;
+}
+
+#cc-container {
+	height: 330px;
+	width: 520px;
+	background: #b6eb55;
+	margin: 100px auto;
+	padding: 0px 20px 20px 20px;
+	border-radius: 5px;
+	box-shadow: 0px 5px 50px #000;
+}
+
+#cc-container p {
+	margin-top: -10px 0 0 50px;
+	padding-top: -10px 0 0 50px;
+	font-size: .8em;
+ }
+
+#cc-title p {
+	float: left;
+	margin: auto;
+	padding: 0 0 0 40px;
+	font-size: 1.4em;
+	font-weight: bold;
+	line-height: 80px;
+	color: white;
+	text-shadow: 0px 1px 2px #292929;
+}
+
+#cc {
+	width: 520px;
+	height: 90px;
+	background: #fff;
+	padding: 10px 0;
+	margin-bottom: -90px;
+	border-radius: 5px;
+	position: relative;
+}
+
+/*CC FORM*/
+
+#cc {
+	height: 230px;
+	overflow: hidden;
+	font-family: helvetica, arial, sans-serif;
+	padding: -100px 0 0 0;
+	margin: 100px 0 0 0;
+}
+
+#cc p {
+/*	text-indent: -9999px;*/
+/*	padding:  ;*/
+	position: relative;
+/*	float: left;*/
+}
+
+#cc-form-container {
+	width: 520px;
+/*	background: blue;*/
+	height: 300px;	
+	float: left;
+	margin: auto;
+}
+
+#cc-form {
+	margin: auto;
+/*	background: black;*/
+	height: 150px;
+	width: 520px;
+/*	padding-top: 100px;*/
+}
+
+input, textarea, select {
+  background-color : white;
+  color : #292929;
+  float: right;
+} 
+
+input {
+  border : 1px solid #999;
+  padding : 5px;
+  font-size: .8em;
+  font-family: helvetica, arial, sans-serif;
+  color: #999;
+ 
+} 
+
+input.box { 
+	width: 180px; 
+	height: 15px; 
+	border-radius: 5px;
+	box-shadow:inset 0px 1px 1px #292929;
+	margin: 0 auto;
+/*	padding: 10px 0;*/
+	margin: 20px 0 0 15px;
+}
+
+#cc-lables {
+/*	background: red;*/
+	width: 160px;
+/*	height: 160px;*/
+	float: left;
+	padding: 20px 10px 10px 70px;
+	line-height: 50px;
+	top: 0;
+	position: relative;
+	margin: auto;
+}
+
+#cc-lables p {
+	font-size: 1.4em;
+	font-weight: bolder;
+	color: #292929;
+}
+
+#fields {
+	width: 190px;
+	height: 160px;
+/*	background: green;*/
+	float: left;
+	margin: auto;
+	padding: 10px;
+	position: relative;
+	overflow: visible;
+	top: 0;
+	position: relative;
+}
+
+
+
+
+
+
+
+#cc-submit-wrapper {
+	width: 500px;
+/*	background: #333;*/
+	height: 50px;
+	margin: auto;
+	overflow: hidden;
+}
+
+#cc-submit-container {
+	background: blue;
+/*	float: left;*/
+	display: inline;
+	width: 150px;
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+
+#cc-submit {
+	background: #24b0d3;
+	width: 110px;
+	height: 30px;
+	padding: 15px 10px 0 0;
+	margin: 0 25px 0 110px;
+/*	margin: auto;*/
+	float: left;
+	border-radius: 5px;
+	box-shadow: 0px 1px 1px #292929;
+/*	overflow: visible;*/
+}
+
+#cc-submit p {
+/*	background: black;*/
+	color: white;
+	font-weight: bold;
+	font-size: 1.2em;
+	margin: 0 0 10px 20px;
+/*	line-height: 50px;*/
+	
+}
+
+#cc-submit a {
+	color: white;
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: 1.2em;
+}
+#cc-submit a:active {
+	color: white;
+	position: absolute;
+	top: 2px;
+}
+#cc-submit a:hover {
+	color: #ffab00;
+}
+
+
+
+#cc-check-box p {
+	margin: -13px 115px 40px 10px;
+	float: right;
+/*	height: 100px;*/
+/*	width: 100px;*/
+	font-size: .8em;
+}
+
+#cc-check-box input {
+/*	background: blue;*/
+/*	height: 100px;*/
+	width: 200px;
+	float: left;
+/*	padding: 0px 0 0 0;*/
+	margin: 3px 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*END NEW FORM*/
 
 
 
