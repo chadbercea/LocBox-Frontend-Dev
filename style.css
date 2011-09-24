@@ -476,9 +476,9 @@ input.box {
 	height: 15px; 
 	border-radius: 5px;
 	box-shadow:inset 0px 1px 1px #292929;
-	margin: 0 0 0 15px;
+	margin: 20px 0 0 15px;
 /*	padding: 10px 0;*/
-	margin: 2px 0 0 15px;
+/*	margin: 20px 0 0 15px;*/
 }
 
 /*END NEW FORM*/
@@ -831,12 +831,12 @@ Credit Card Styles
 
 #cc {
 	width: 520px;
-	height: 90px;
+/*	height: 90px;*/
 	background: #fff;
-	padding: 10px 0;
-	margin-bottom: -90px;
+/*	padding: 10px 0;*/
+/*	margin-bottom: -00px;*/
 	border-radius: 5px;
-	position: relative;
+	position: absolute;
 }
 
 /*CC FORM*/
@@ -862,6 +862,8 @@ Credit Card Styles
 	height: 300px;	
 	float: left;
 	margin: auto;
+	overflow: hidden;
+	position: inherit;
 }
 
 #cc-form {
@@ -904,7 +906,8 @@ input.ccbox {
 	box-shadow:inset 0px 1px 1px #292929;
 	margin: 0 auto;
 /*	padding: 10px 0;*/
-	margin: 20px 0 0 15px;
+	margin: 35px 0 0 0;
+/*	background: red;*/
 }
 
 #cc-lables {
@@ -930,12 +933,11 @@ input.ccbox {
 	height: 160px;
 /*	background: green;*/
 	float: left;
-	margin: auto;
-	padding: 10px;
-	position: relative;
-	overflow: visible;
-	top: 0;
-	position: relative;
+/*	margin: auto;*/
+/*	position: absolute;*/
+/*	overflow: visible;*/
+/*	top: 0;*/
+/*	position: relative;*/
 }
 
 
@@ -948,17 +950,19 @@ input.ccbox {
 	width: 500px;
 /*	background: #333;*/
 	height: 50px;
-	margin: auto;
+	margin: 175px 0px 0px 0px;
 	overflow: hidden;
+	position: absolute;
 }
 
 #cc-submit-container {
-/*	background: blue;*/
+	background: blue;
 /*	float: left;*/
-	display: inline;
+/*	display: inline;*/
 	width: 150px;
-	margin: 0 auto;
-	overflow: hidden;
+	height: 0px;
+	margin: 5px auto;
+	overflow: visible;
 	
 }
 
@@ -967,12 +971,13 @@ input.ccbox {
 	width: 110px;
 	height: 30px;
 	padding: 15px 10px 0 0;
-	margin: 0 25px 0 110px;
+	margin: -5px 25px 0 -60px;
 /*	margin: auto;*/
-	float: left;
+/*	float: left;*/
 	border-radius: 5px;
 	box-shadow: 0px 1px 1px #292929;
-/*	overflow: visible;*/
+	position: absolute;
+	overflow: visible;
 }
 
 #cc-submit p {
@@ -1001,44 +1006,74 @@ input.ccbox {
 }
 
 
-
-#cc-check-box p {
-	margin: -13px 115px 40px 10px;
+#cc-checkbox-container {
+	width: 235px;
+	height: 500px;
+/*	background: red;*/
 	float: right;
-/*	height: 100px;*/
-/*	width: 100px;*/
-	font-size: .8em;
 }
+
 
 #cc-check-box input {
 /*	background: blue;*/
 /*	height: 100px;*/
-	width: 200px;
+	width: 6%;
 	float: left;
 /*	padding: 0px 0 0 0;*/
-	margin: 3px 0 0 0;
+/*	margin: 0px 0px 0px 165px;*/
+/*	position: absolute;*/
 }
 
-#fields span {
-	position: absolute;
-	padding: 03px 50px 0 2px;
+#save-card p {
+	float: left;
+	width: 100px;
+	height: 100px;
+	padding: 2px 0 0 0;
+/*	background: blue;*/
+}
+
+#month {
+/*	background: red;*/
+	width: 85px;
+	height: 20px;
+	float: left;
+}
+
+#slash {
+/*	position: absolute;*/
+/*	padding: 03px 50px 0 2px;*/
+	padding: 5px 5px;
+	width: 5px;
+	display: inline;
+	float: left;
+/*	background: blue;*/
+}
+
+/*tag*/
+
+#year {
+/*	background: red;*/
+	width: 85px;
+	height: 20px;
+	float: left;
 }
 
 .cc-drop {
 /*	background: #999;*/
 	font-size: 1em;
-	height: 25px;
+/*	height: 25px;*/
 	width: 85px;
 /*	padding: 5px 0 0 0px;*/
-	margin: 0 0px 0 10px;
-	float: left;
+/*	margin: 0 auto;*/
+/*	float: left;*/
 }
 
 #cc-dropdown {
 /*	background: red;*/
 	float: left;
 	width: 190px;
-	margin: 28px 0 0 -5px;
+	height: 5px;
+	margin: 22px 0 9px 0px;
 }
 
 
@@ -1060,7 +1095,7 @@ Confirmation Styles
 	width: 100%;
 	position: relative;
 	float: left;
-	margin: 135px 0 0 0;
+/*	margin: 135px 0 0 0;*/
 }
 
 #confirm-container {
