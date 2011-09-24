@@ -451,7 +451,7 @@ OLD FORM
 	width: 230px;
 	height: 100px;
 	padding: -50px 0 0 0;
-	margin: 30px 0 0 -20px;
+	margin: 30px 0 0 0;
 	position: relative;
 /*	background: red;*/
 	font-family: helvetica, arial, sans-serif;
@@ -794,7 +794,7 @@ Credit Card Styles
 #cc-wrapper {
 	padding: 10px;
 	margin: 50px;
-/*	background: black;*/
+	background: black;
 	opacity: 75%;
 }
 
@@ -806,20 +806,6 @@ Credit Card Styles
 	padding: 0px 20px 20px 20px;
 	border-radius: 5px;
 	box-shadow: 0px 5px 50px #000;
-}
-
-.lock#lock-cc {
-/*	background: orange;*/
-	position: absolute;
-	margin: 200px 0px 0px 480px;
-	padding: 10px;
-}
-
-.lock#lock-confirm {
-/*	background: orange;*/
-	position: absolute;
-	margin: 220px 0px 0px 575px;
-	padding: 10px;
 }
 
 #cc-container p {
@@ -904,16 +890,6 @@ input.box {
 	box-shadow:inset 0px 1px 1px #292929;
 	margin: 0 auto;
 /*	padding: 10px 0;*/
-/*	margin: 20px 0 0 15px;*/
-}
-
-input.ccbox { 
-	width: 180px; 
-	height: 15px; 
-	border-radius: 5px;
-	box-shadow:inset 0px 1px 1px #292929;
-	margin: 0 auto;
-/*	padding: 10px 0;*/
 	margin: 20px 0 0 15px;
 }
 
@@ -963,7 +939,7 @@ input.ccbox {
 }
 
 #cc-submit-container {
-/*	background: blue;*/
+	background: blue;
 /*	float: left;*/
 	display: inline;
 	width: 150px;
@@ -990,7 +966,7 @@ input.ccbox {
 	color: white;
 	font-weight: bold;
 	font-size: 1.2em;
-	margin: -3px 0 10px 20px;
+	margin: 0 0 10px 20px;
 /*	line-height: 50px;*/
 	
 }
@@ -1029,107 +1005,38 @@ input.ccbox {
 	margin: 3px 0 0 0;
 }
 
-#fields span {
-	position: absolute;
-	padding: 03px 50px 0 2px;
-}
 
-.cc-drop {
-/*	background: #999;*/
-	font-size: 1em;
-	height: 25px;
-	width: 85px;
-/*	padding: 5px 0 0 0px;*/
-	margin: 0 0px 0 10px;
-	float: left;
-}
 
-#cc-dropdown {
-/*	background: red;*/
-	float: left;
-	width: 190px;
-	margin: 28px 0 0 -5px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 /*END NEW FORM*/
 
-/*End CC*/
-
-
-/*************************************************************************
-**************************************************************************
-
-Confirmation Styles 
-
-**************************************************************************
-*************************************************************************/
-
-#confirm-wrapper {
-	width: 100%;
-	position: relative;
-	float: left;
-	margin: 135px 0 0 0;
-}
-
-#confirm-container {
-	width: 610px;
-	margin: auto;
-}
 
 
 
-#confirm {
-	background: white;
-	width: inherit;
-	float: left;
-	padding: 10px;
-	margin: 20px;
-	border-radius: 5px;
-	box-shadow: 0px 1px 50px #292929
-}
-
-#confirm-left {
-	width: 340px;
-	float: left;
-	color: #292929;
-	border-right-style: dashed;
-	border-right-color: #999;
-	border-right-width: 2px;
-}
 
 
 
-#confirm-right {
-	width: 230px;
-	float: left;
-	padding: 9px;
-	color: #292929;
-	
-}
 
-#confirm-left img {
-	padding: 15px;
-}
-
-#confirm-right h4 {
-	font-size: 1.28em;
-	font-weight: bold;
-	margin: 0px 0px 25px 10px;
-}
-
-#confirm-left h4 {
-	font-size: 1.251em;
-	font-weight: bold;
-	margin: 0 0 0 10px;
-}
-
-#confirm-right p {
-	margin: 10px;
-}
-
-/*End Confirmation */
 
 
 
