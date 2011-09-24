@@ -187,6 +187,138 @@
 			
 		</div>
 		
+<!--		This is the Credit Card Screen-->
+
+<div class="" id="cc-wrapper" display="hidden">
+		<div class="noise" id="cc-container">
+			<div id="cc-title">
+				<p>Enter payment information to reserve spot</p>
+			</div>
+			<div id="cc">
+<!--				<p> This will be the credit </p>-->
+				<div id="cc-form-container">
+					<div id="cc-form">
+						<form name="cc" action="#" onsubmit="return(showFormData(this))" method="#">
+							<div id="cc-lables">
+								<p> Credit Card: </p> 
+								<p> Expiration: </p>
+								<p> CVC: </p>
+							</div>
+							<div id="fields">
+								<input type="text" class="ccbox" name="name" value="xxxx xxxx xxxx xxxx" />
+								<!--<input type="text" class="box" name="email" value="xx/xxxx" />-->
+								<div id="cc-dropdown">
+								
+									<select name="Month" class="cc-drop" dir="ltr">
+									  <option value="Month">Month</option>
+									  <option value="Jan">Jan</option>
+									  <option value="Feb">Feb</option>
+									  <option value="Mar">Mar</option>
+									  <option value="Apr">Apr</option>
+									  <option value="May">May</option>
+									  <option value="Jun">Jun</option>
+									  <option value="Jul">Jul</option>
+									  <option value="Aug">Aug</option>
+									  <option value="Sep">Sep</option>
+									  <option value="Oct">Oct</option>
+									  <option value="Nov">Nov</option>
+									  <option value="Dec">Dec</option>
+									</select>
+									
+									<span> / </span>
+									
+									<select name="Year" class="cc-drop" dir="ltr">
+									  <option value="Year">Year</option>
+									  <option value="2011">2011</option>
+									  <option value="2012">2012</option>
+									  <option value="2013">2013</option>
+									  <option value="2014">2014</option>
+									  <option value="2015">2015</option>
+									  <option value="2016">2016</option>
+									  <option value="2017">2017</option>
+									  <option value="2018">2018</option>
+									</select>
+									
+								
+								</div>
+								 
+								
+								<input type="text" class="ccbox" name="phone" value="***" />
+								
+								
+<!--							<input type="submit" name="submit-btn" value="buy now!" /> -->
+							</div>
+							
+							<div id="cc-submit-wrapper">
+							
+								<div id="cc-submit-container">
+									<div class="" id="cc-submit">
+										<p> <a href="#">submit</a></p>
+									</div>
+								</div>
+								
+								<div id="cc-check-box">
+<!--									<p> check box </p>-->
+									<input type="checkbox" class="#" name="remember" value="#" />
+									<p>
+										Save my card for <br /> future purchases
+									</p>
+									
+								</div>
+							</div>
+							
+							
+						</form> 
+						
+						
+					</div>
+				</div>
+				
+				<div class="lock" id="lock-cc">
+					<img src="images/lock.png" />
+				</div>
+				
+			</div>
+			
+						
+			
+		</div>
+	</div>
+
+
+<!--	End Credit Card Screen-->
+
+<!--This is the Confirmation Screen-->
+
+<div id="confirm-wrapper">
+	<div id="confirm-container">
+		<div id="confirm">
+			<div id="confirm-left">
+				<h4> $40 For Your Choise of Manicure and Pedicure (reg. $70) </h4>
+					<p> <img src="images/offer-img.jpg" width="300" /> 
+					
+			</div>
+			<div id="confirm-right">
+				<h4> Reservation Success! </h4>
+					<p>
+						Thank you, we have recorded your RSVP and sent you a confirmation email and/or text.
+					</p>
+					<p>
+						Please follow the instructions <strong>Loma Spa</strong> will email you to book your appointment or call them directly at (408) 234-2942
+					</p>
+			</div>
+			
+			<div class="lock" id="lock-confirm">
+				<img src="images/lock.png" />
+			</div>
+	</div>
+	
+	
+	
+</div>
+
+<!--End Confirmation Screen-->
+		
 <!-- Javascript that drives the form labels -->
 
 <!--	<script type="text/javascript">
